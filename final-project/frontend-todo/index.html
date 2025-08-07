@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-DO List App</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body id="theme" class="light-theme">
+<div class="container">
+    <div class="buttons-container">
+        <button id="addtask" onclick="addtask()">Add a task</button>
+        <button id="deletetask" onclick="deletetask()">Delete a task</button>
+        <button id="edittask" onclick="edittask()">Edit a task</button>
+        <button id="markdone" onclick="markdone()">Mark as done</button>
+        <button id="Togglemode" onclick="toggleTheme()">Toggle Mode</button>
+    </div>
+    <input class="inputbox" type="text" id="taskInput" placeholder="type and click on Add a task "><br>
+    <input class="taskNumber" type="number" id="taskNumber" placeholder="task number">
+    
+    <div class="task-container">
+        <h2 style="text-align: center;">To Do List</h2> 
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
